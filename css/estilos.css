@@ -424,6 +424,61 @@ main{
     margin-left:-75px;
     color: #FAF8F7;
 }
+/*CONTENEDOR  SEDES */ 
+ 
+.contenedor__sede--milpa{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    background-color:blue ;
+  
+}
+.sede__milpa--titulo{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: center;
+    background-color: red;
+}
+.milpa--titulo{
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: white;
+}
+/*imagenes sedes*/
+.sede__milpa--galeria{
+    width: 90%;
+    height: auto;
+}
+.milpa__galeria--imagen{
+    width: 90%;
+    height: 360px;
+    background-image: url('/imagenes/4m.jpg');
+}
+/*SUPERMILPAS*/
+.sede__milpa--estacion{
+    width: 90%;
+    height: auto;
+}
+.milpa__estacion--imagen{
+    width: 90%;
+    height: 360px;
+    background-image: url('/imagenes/spm.jpg');
+}
+/*express*/
+.sede__milpa--express{
+    width: 90%;
+    height: auto;
+}
+.milpa__express--imagen{
+    width: 90%;
+    height: 360px;
+    background-image: url('/imagenes/4m.jpg');
+}
+
+
+
 
 
 
