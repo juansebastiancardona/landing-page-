@@ -430,50 +430,91 @@ main{
     width: 100%;
     height: auto;
     padding-top: 15px;
-    background-color:blue ;
+    background-color:#FAF8F7 ;
   
 }
 .sede__milpa--titulo{
-    width: 80%;
+    width: 90%;
     height: 70px;
     margin: 0 auto;
     padding-top: 25px;
     text-align: center;
-    background-color: red;
+   
 }
 .milpa--titulo{
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     font-weight: 900;
-    color: white;
+  
 }
+
 /*imagenes sedes*/
 .sede__milpa--galeria{
     width: 90%;
     height: auto;
+    margin: 10px 30px;
+    
+}
+.milpa__galeria--titulo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.milpa__galeria--direccion{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 .milpa__galeria--imagen{
     width: 90%;
     height: 360px;
+    border-radius: 5px;
     background-image: url('/imagenes/4m.jpg');
 }
+
 /*SUPERMILPAS*/
 .sede__milpa--estacion{
     width: 90%;
     height: auto;
+    margin: 35px 30px;
+    
+}
+.milpa__estacion--titulo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.milpa__estacion--direccion{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 .milpa__estacion--imagen{
     width: 90%;
     height: 360px;
-    background-image: url('/imagenes/spm.jpg');
+    border-radius: 5px;
+    background-image: url('/imagenes/4m.jpg');
 }
 /*express*/
 .sede__milpa--express{
     width: 90%;
     height: auto;
+    margin: 35px 30px;
+    
+}
+.milpa__express--titulo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.milpa__express--direccion{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 .milpa__express--imagen{
     width: 90%;
     height: 360px;
+    border-radius: 5px;
     background-image: url('/imagenes/4m.jpg');
 }
 
