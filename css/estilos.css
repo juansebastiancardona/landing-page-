@@ -523,16 +523,18 @@ main{
 .contenedor__mercado--economico{
     width: 100%;
     height: auto;
-   background-color: aquamarine;
-    padding-top: 15px;
+    background-color:#FAF8F7 ;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 .mercado__economico--titulo{
     width: 80%;
     height: auto;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 30px;
-    background-color: #ff8000;
+    margin-bottom: 5px;
+  
 
 
 }
@@ -549,42 +551,93 @@ main{
 /*slider*/
 .mercado__economico--slider{
     display: flex;
-    height: 320px;
+    
+    background-color:#FAF8F7 ;
+    height: 330px;
     /*lineas de coidigo para el scroll horizontal*/
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+
+  
+   
+  
 }
 .mercado__pequenio{
     position: relative;
     scroll-snap-align: center;
-    width: 70%;
+    width: 60%;
+    min-width: 230px;
+    max-width: 300px;
     height: 250px;
-    margin: 25px 50px;
-    border-radius: 5px;
-    background-color: rgb(230, 217, 217);
+    margin: 50px 20px 0;
+    padding-bottom: 55px;
+    margin-bottom: 55px;
+    
+   
+    padding: 0 15px;
+    background-color: antiquewhite;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
+  
 }
 .titulouno{
     position: absolute;
-    width: 90px;
+    font-weight: bold;
+    width: 130px;
     height: 25px;
     text-align: center;
-    left: 30%;
+    left: 22%;
     top: -10px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     border-radius: 4px;  
-    background:linear-gradient(207.8deg, #d0d5e088 16.69%, #14df25 100%) ;
+    background: linear-gradient(207.8deg, #ff8000 16.69%,blue 100%);
     
 }
 .mercado__pequenio--informacion{
-    margin-left: 25px;
-    margin-top: 45px;
+    width: 90%;
+   height: auto;
+   text-align: center;
+    margin-left: 10px;
+    margin-top: 35px;
     margin-right: 15px;
+ 
 }
 .pequenio__informacion--titulo{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 4.0rem;
+      
 }
+
+.pequenio__informacion--precio{
+    font-size:4.5rem ;
+    font-weight: 600;
+    line-height: 8.0rem
+  
+}
+.pequenio__informacion--precio span{
+    font-size: 1.5rem;
+    font-weight: 400;
+    vertical-align: 18px;
+}
+.pequenio__informacion--ahorro{
+    font-size: 1.5rem;
+   
+}
+.pequenio__informacion--boton{
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 25px;
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-top: 2px;
+    
+    padding-right: 25px;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+
    
     
 
